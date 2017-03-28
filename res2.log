@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.9)  28 MAR 2017 16:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.1.9)  28 MAR 2017 17:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -67,7 +67,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
 
-Underfull \hbox (badness 1845) in paragraph at lines 62--63
+Underfull \hbox (badness 1845) in paragraph at lines 67--68
 []\OT1/cmr/m/n/10 Adobe Pho-to-shop, Adobe Light-room, Sub-lime Text,
  []
 
@@ -88,7 +88,7 @@ fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb>
-Output written on res2.pdf (1 page, 63590 bytes).
+Output written on res2.pdf (1 page, 64090 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
