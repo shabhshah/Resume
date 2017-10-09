@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+
+%defines page size and margins
+\usepackage{geometry}
+\geometry{
+    letterpaper,
+    left=1in,
+    right=1in,
+    top=1in,
+    bottom=1in,
+}
+
+%Sets spacing for entire document
+\usepackage{setspace}
+\singlespacing
+
+%Package for reducing space in between list items
+\usepackage{enumitem}
+
+%For positioning tables
+\usepackage{float}
+
+%for dope tables
+\usepackage{tabularx}
+
+%No hyphenation
+\usepackage[none]{hyphenat}
+
+%For the table multirows
+\usepackage{multirow}
+
+\begin{document}
+%Header
+\begin{center}
+	{\large\textbf{Rishabh A. Shah}}
+
+	rishabas@umich.edu $\bullet$ 978-873-7207 \\
+\end{center}
+
+%Addresses
+\noindent\textbf{Present Address \hfill Permanent Address}
+
+\noindent 1021 Vaughn Street \hfill 1499 Salem Street
+
+\noindent The Dean Apt 1 \hfill North Andover, MA, 01845
+
+\noindent Ann Arbor, MI, 48104 \\
+
+\begin{table}[H]
+	\centering
+	\begin{tabularx}{\textwidth}{@{}X p{5.25in} @{}}
+		\textbf{Education} & \textbf{University of Michigan \hfill Ann Arbor, MI} \newline \textit{Bachelor of Science in Engineering in Mechanical Engineering \hfill April 2020} \newline \textit{Minor in Electrical Engineering} \newline \textbf{Pingree High School, South Hamilton, MA \hfill June 2016} \\
+
+		\textbf{Project Experience} & \textbf{University of Michigan} \newline \textit{Michigan Hyperloop \hfill Sept 2017 --- present} \newline \textbf{University of Michigan} \newline \textit{Design and Manufacturing I \hfill Sept 2017 --- present } \newline \textbf{University of Michigan} \newline \textit{Solar Energy and Self Powered Wireless Systems \hfill Jan 2017 --- April 2017} \\
+
+		% \textbf{Relevant Experience}
+		% \textbf{Additional Experience}
+		% \textbf{Leadership Activities}
+		% \textbf{Skills}
+		% \textbf{Hobbies}
+		
+	\end{tabularx}
+\end{table}
+
+\end{document}
