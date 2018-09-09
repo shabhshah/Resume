@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.4)  9 SEP 2018 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.9.4)  9 SEP 2018 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -150,22 +150,17 @@ LaTeX Font Info:    ... okay on input line 32.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []|\OT1/cmr/bx/n/12 Project
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
 []|\OT1/cmr/bx/n/12 Relevant
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]|\OT1/cmr/bx/n/12 Leadership
- []
-
-
-Overfull \hbox (0.72362pt too wide) in paragraph at lines 117--117
+Overfull \hbox (0.72362pt too wide) in paragraph at lines 120--120
 []|\OT1/cmr/bx/n/12 Certifications| 
  []
 
@@ -179,7 +174,7 @@ Here is how much of TeX's memory you used:
  4826 multiletter control sequences out of 15000+600000
  8551 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 23i,12n,19p,265b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,12n,19p,280b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
@@ -187,7 +182,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on Resume.pdf (1 page, 87581 bytes).
+Output written on Resume.pdf (1 page, 86937 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  22 compressed objects within 1 object stream
