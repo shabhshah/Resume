@@ -1,0 +1,200 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+	\item\small{
+		{#1 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+		\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+			\textbf{#1} & #2 \\
+			\textit{\small#3} & \textit{\small #4} \\
+		\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingTwo}[2]{
+	\vspace{-1pt}\item[]
+		\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+			\textit{\small#1} & \textit{\small #2} \\
+		\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheadingThree}[2]{
+	\vspace{-1pt}\item
+		\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+			\textbf{#1} & #2 \\
+		\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\Large Rishabh Shah} & Email : \href{mailto:rishabas@umich.edu}{rishabas@umich.edu}\\
+	1499 Salem St, N Andover, MA, 01845 & Mobile : +1-978-873-7207 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{University of Michigan}{Ann Arbor, MI}
+			{Bachelor of Science, Mechanical Engineering}{May 2020}
+	\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+	\resumeSubHeadingListStart
+
+		\resumeSubheading
+			{Michigan Hyperloop}{Ann Arbor, MI}
+			{Analysis and Testing Director}{Aug 2018 - Present}
+			\resumeItemListStart
+				\resumeItem{Manage analysis of each component for the 2019 Michigan Hyperloop Pod to ensure design requirements are met}
+				\resumeItem{Create and execute necessary tests for design feasibility and validation to confirm analysis is correct}
+				\resumeItem{Assist in managing more than 50 active students to accomplish team goals}
+			\resumeItemListEnd
+		\resumeSubheadingTwo
+			{Brakes Subteam Engineer}{Sept 2017 - Aug 2018}
+			\resumeItemListStart
+				\resumeItem{Designed brake rotor for use in the 2018 Michigan Hyperloop Pod while aiding with conceptualizing and designing parts for rest of the subsystem}
+				\resumeItem{Performed CAD utilizing Siemens NX and machined components utilizing 3-axis mill}
+				\resumeItem{Competed in the 2018 SpaceX Hyperloop Competition}
+			\resumeItemListEnd
+
+		\resumeSubheading
+			{Altair Engineering}{Troy, MI}
+			{Applications Engineering Intern}{May 2018 - Aug 2018}
+			\resumeItemListStart
+				\resumeItem{Developed an engine cradle model using HyperMesh and OptiStruct to perform strength, frequency response, and modal analysis}
+				\resumeItem{Built of a trade show device which utilized IoT to target a basket into which a ball was shot with 80\% accuracy}
+			\resumeItemListEnd
+
+		\resumeSubheading
+			{University of Michigan}{Ann Arbor, MI}
+			{Design and Manufacturing II}{Sept 2018 - present}
+			\resumeItemListStart
+				\resumeItem{Designed and manufactured a four-bar linkage to sort balls by color accurately and quickly to compete with other classmates}
+				\resumeItem{Simulated the four-bar linkage using MSC Adams to optimize mechanism weight and accuracy}
+			\resumeItemListEnd
+		\resumeSubheadingTwo
+			{Design and Manufacturing I}{Sept 2017 - Dec 2017}
+			\resumeItemListStart
+				\resumeItem{Engineered and manufactured a Robotic Machine Player to compete in a game at the end of the semester utilizing Solidworks and used a machine shop to manufacture parts in house}
+			\resumeItemListEnd
+		\resumeSubheadingTwo
+			{Solar Energy}{Jan 2017 - April 2017}
+			\resumeItemListStart
+				\resumeItem{Successfully fabricated and programmed a solar tracking device using an Arduino UNO to maximize power production}
+			\resumeItemListEnd
+
+			\resumeSubheading
+			{Osram-Sylvania}{Wilmington, MA}
+			{Quality Assurance Engineering Intern}{June 2016 - Aug 2016}
+			\resumeItemListStart
+				\resumeItem{Implemented new QA Lab software for the Americas Division Quality Labs, creating a new standard report format and a streamlined work flow}
+				\resumeItem{Assisted in electrical QA testing of LED Drivers in a lab environment to ensure performance specifications were met}
+			\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Leadership}
+			{Eagle Scout, Boy Scouts of America, Troop 87, North Andover, MA \hfill Nov 2015
+
+\section{Skills}
+			\resumeItemListStart
+				\resumeItem{Hardware: 3D printers, band saws, drill presses, function generators, laser cutters, lathes, mills, oscilloscopes, power supplies, soldering irons, waterjets}
+				\resumeItem{Software: Adobe Lightroom, Adobe Photoshop, Bash, Github, HyperWorks, \LaTeX, MSC Adams, MS Excel, MS PowerPoint, Matlab, NX, OptiStruct, Python, Solidthinking Inspire, Solidworks}
+			\resumeItemListEnd
+
+\section{Hobbies}
+	\resumeItemListStart
+		\resumeItem{Backpacking, climbing, photography, skiing}
+	\resumeItemListEnd
+%-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
